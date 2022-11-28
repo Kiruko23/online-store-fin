@@ -62,7 +62,7 @@ class AdminProductController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            "nam    e" => "required|max:255",
+            "name" => "required|max:255",
             "description" => "required",
             "price" => "required|numeric|gt:0",
             'image' => 'image',
