@@ -20,7 +20,7 @@ class ProductsController extends Controller
 
         return response()->json([
             'status' => true,
-            'prodcut' => $product
+            'products' => $product
         ]);
     }
 
